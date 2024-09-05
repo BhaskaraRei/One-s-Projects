@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(169, 196, 225);
+}
+button{
+ border: none;   
+ height: 5.5em;
+ width: 8.5em;
+}
+
+.EstruturaCr{
+    text-align: center;
+} 
+#iniciar{
+ background-color: rgb(63, 202, 17);
+}
+#pause{
+    background-color:rgb(160, 162, 178)
+}
+#zera{
+    background-color: rgb(204, 34, 34);
+}
+#Cronometro{
+    font-style: italic;
+}
+#texto{
+    color: aliceblue;
+}

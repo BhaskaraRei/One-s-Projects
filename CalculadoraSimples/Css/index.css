@@ -1,0 +1,32 @@
+
+#Titulo{
+    text-align: center;
+    margin-top: 10%;
+}
+.Estrutura{
+    display: inline-block;
+    position: relative; left: 33%;
+    width: 70vh; height: 50vh;
+    background-color: rgb(34, 225, 222);
+    text-align: center;  
+    border-radius: 30px;    
+}
+#y1{
+    padding-top: 20px;
+}
+#x1{
+    display: inline-block;
+    background-color: aliceblue;
+}
+.soma{ margin-right: 10px;}
+.mult{ margin-right: 10px;}
+.sub{margin-right: 10px;}
+.divi{ margin-right: 10px;}
+
+#LimpaTudo{
+  background-color: rgb(205, 82, 82);
+  color: aliceblue
+}
+button{
+    background-color: aquamarine;
+}

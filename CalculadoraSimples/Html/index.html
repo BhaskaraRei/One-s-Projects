@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora || Simples</title>
+    <link rel="stylesheet" href="/CalculadoraSimples/Css/index.css">
+
+</head>
+<body>
+    
+    <h1 id="Titulo">Calculadora Simples</h1>
+
+   <div class="Estrutura">
+    <div class="butons">
+    <p id="y1">Digite o Primeiro Numero01</p>
+    <input type="text" id="x" value="0">
+    <p id="y2">Digite o Primeiro Numero02</p>
+    <input type="text" id="y" value="0"><br><br>
+    <button class="soma" onclick="soma(x,y);">Soma</button>
+    <button class="mult" onclick="mult(x,y);">Multiplcar</button>
+    <button class="sub" onclick="sub(x,y);">Subtração</button>
+    <button class="divi" onclick="divi(x,y);">Divisão</button><br><br>
+    <button id="LimpaTudo" onclick="LimpaTudo(x,y);">Limpar</button>
+    </div>
+    <p id="x1"></p>
+    </div>
+   <script src="/CalculadoraSimples/Js/index.js"></script> 
+</body>
+</html>
